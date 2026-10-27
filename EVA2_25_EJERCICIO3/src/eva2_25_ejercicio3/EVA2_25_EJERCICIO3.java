@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Usuario
+ * @author elgus
  */
 public class EVA2_25_EJERCICIO3 {
 
@@ -16,14 +16,17 @@ public class EVA2_25_EJERCICIO3 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-      Scanner sc = new Scanner(System.in);
-      System.out.println("Ingrese un numero");
-      int n = sc.nextInt();
-      sc.nextLine();
-      for (int i = 1; i <=10; i++) { 
-          System.out.println(n + "x" + i + "=" + (n * i));
-      }   
+       
+       Scanner sc = new Scanner(System.in);
+       
+        System.out.println("Numero:");
+     int n = sc.nextInt();
+    sc.nextLine();
     
+    
+     
+        
+        
     }
     
 }
